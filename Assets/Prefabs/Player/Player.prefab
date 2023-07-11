@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3877755296579639773}
   - component: {fileID: 5685916072112024381}
   - component: {fileID: 5901304159618576845}
+  - component: {fileID: 4622119167763681348}
   - component: {fileID: 2360919450139741560}
   m_Layer: 10
   m_Name: Player
@@ -37,7 +38,7 @@ Transform:
   m_Children:
   - {fileID: 7167244434543799771}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1443428275124636388
 SpriteRenderer:
@@ -231,6 +232,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4622119167763681348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5437820811085261356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfe2ee5d93c4b94091655c5494e7049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointSound: {fileID: 8300000, guid: 4432cb9e29cef3b419e5e9bd44a048e4, type: 3}
 --- !u!114 &2360919450139741560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +260,7 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 1.5
   numberOfFlashes: 3
+  components: []
   deathSound: {fileID: 8300000, guid: 7f6e9729c22aedd488608102185a2a75, type: 3}
   hurtSound: {fileID: 8300000, guid: b1d8304c088e78d40a3be8d44129d025, type: 3}
 --- !u!1 &5536062887586356869
